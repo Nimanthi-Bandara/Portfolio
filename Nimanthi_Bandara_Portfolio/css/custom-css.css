@@ -1,0 +1,368 @@
+html {
+    scroll-behavior: smooth;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-13{
+    font-size: 13px;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-15{
+    font-size: 15px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-26{
+    font-size: 26px;
+}
+.font-28{
+    font-size: 28px;
+}
+.font-30{
+    font-size: 30px;
+}
+.font-32{
+    font-size: 32px;
+}
+.font-34{
+    font-size: 34px;
+}
+.font-36{
+    font-size: 36px;
+}
+.font-38{
+    font-size: 38px;
+}
+.font-40{
+    font-size: 40px;
+}
+.font-50{
+    font-size: 50px;
+}
+
+.fw-100{
+    font-weight: 100;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.w-50{
+    width: 50%;
+}
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for container-fluid (full-width container) */
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Style for container (fixed-width container) */
+.container {
+    width: 100%;
+    max-width: 1140px; /* Adjust max-width as needed */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Style for rows */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Style for columns (adjust widths based on your needs) */
+[class^="col-"] {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-8{
+    flex: 0 0 66.66%;
+}
+.col-6 {
+    flex: 0 0 50%; /* Two columns per row for col-6 */
+}
+
+.col-4 {
+    flex: 0 0 33.33%; /* Three columns per row for col-4 */
+}
+.col-3 {
+    flex: 0 0 25%;
+}
+.col-2 {
+    flex: 0 0 16.66%;
+}
+.col-1{
+    flex: 0 0 8.33%;
+}
+/*colors*/
+.bg-blue{
+    background-color: #002945;
+}
+.bg-dark-blue{
+    background-color: #081b29;
+}
+.light-blue-text{
+    color: #00abf0;
+}
+.dark-blue-text{
+    color: #004c8a;
+}
+.white-text{
+    color: white;
+}
+body{
+    font-family: "Poppins", sans-serif;
+
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #002945;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #00abf0;
+}
+
+.home{
+    background: #081b29;
+    color: #ededed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding:0 10%;
+}
+
+.hero-section{
+    background-color: #081b29;
+}
+.hero-content{
+    padding: 300px 0;
+}
+.hero-h1{
+    line-height: 52px;
+    color: white;
+}
+.home-h4{
+    color: #00abf0;
+    margin-right: 5px;
+}
+
+.home-content p{
+    font-size: 16px;
+}
+.profile-picture{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 0 0;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.about-me {
+    padding-bottom: 20px;
+    background-image: url("../img/about-me-bg.jpg");
+    /* Additional background properties */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* Other styles */
+}
+.about-me-h1{
+    padding:80px 0 10px 0;
+}
+.about-me-p{
+    padding: 10px 0;
+}
+li::marker {
+    color: #ffffff !important;
+}
+.tec-text{
+    align-content: center;
+    align-items: center;
+}
+.tec-img{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.project-content{
+    padding-bottom:30px;
+}
+
+.contact-bg{
+    height: 700px;
+    background-image: url("../img/contact-bg.jpg");
+    /* Additional background properties */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    /* Other styles */
+}
+.contact-row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.contact-card{
+    background-color: rgba(255, 255, 255, 0.35);
+    border: solid white 2px;
+    border-radius: 8px;
+    width: 1000px;
+}
+/*--------------------------------*/
+.form-col{
+    border-right: solid white 2px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #004c8a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #003057;
+}
+
+.form-container {
+    border-radius: 5px;
+
+    padding: 20px;
+}
+.icon-row{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+.icon-col{
+    align-items: center;
+}
+.achievement-p{
+    padding: 10px 0;
+}
+.achievement-edu-p{
+    padding: 10px 0 0 0;
+}
+.achievement-col{
+    padding-bottom: 20px;
+}
+.check{
+    position: absolute;
+    top: 58px;
+    left: 196px;
+}
+.check2{
+    position: absolute;
+    top: 177px;
+    left: 275px;
+}
+.check3{
+    position: absolute;
+    top: 297px;
+    left: 164px;
+}
+.check4{
+    position: absolute;
+    top: 415px;
+    left: 89px;
+}
+.other-p{
+    padding: 20px 0;
+}
+.footer {
+    background-color: #003057;
+    height: 40px;
+}
